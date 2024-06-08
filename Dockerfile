@@ -1,4 +1,4 @@
-FROM node:14.x
+FROM node:14
 WORKDIR servers/express/api-with-express-and-handlebars
 COPY package*.json ./
 RUN npm install
